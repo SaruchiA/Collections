@@ -1,0 +1,8 @@
+D:\Users\Saruchi\Documents\Visual Studio 2012\Projects\Collections\bin\Debug\Collections.exe.config
+D:\Users\Saruchi\Documents\Visual Studio 2012\Projects\Collections\bin\Debug\Collections.exe
+D:\Users\Saruchi\Documents\Visual Studio 2012\Projects\Collections\bin\Debug\Collections.pdb
+D:\Users\Saruchi\Documents\Visual Studio 2012\Projects\Collections\obj\Debug\Collections.csprojResolveAssemblyReference.cache
+D:\Users\Saruchi\Documents\Visual Studio 2012\Projects\Collections\obj\Debug\Collections.exe
+D:\Users\Saruchi\Documents\Visual Studio 2012\Projects\Collections\obj\Debug\Collections.pdb
+D:\Users\Saruchi\Documents\Visual Studio 2012\Projects\Collections\obj\Debug\Collections.Form1.resources
+D:\Users\Saruchi\Documents\Visual Studio 2012\Projects\Collections\obj\Debug\Collections.csproj.GenerateResource.Cache
