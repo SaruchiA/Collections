@@ -56,6 +56,8 @@ namespace Collections
 
         private static void workWithDictionary()
         {
+            ///TODO: 1. Must not use List<String> for Sorting. 2. Check if process is running before iterating the loop on the dictionary. 
+            
             Dictionary <int,String> runningProcesses= new Dictionary<int,string> () ;
             List<String> processName = new List<string>();
             String inputProcess;
