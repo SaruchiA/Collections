@@ -90,12 +90,12 @@ namespace Collections
             Console.WriteLine("Specify a process to be shown with its ID:");
             inputProcess = Console.ReadLine();
 
-            foreach (var item in runningProcesses )
+            if (runningProcesses .ContainsValue (inputProcess ))
             {
-                    if (inputProcess == item.Value )
-                    {
-                        Console.WriteLine(" Specified Process \" " + item.Value + "\" is running with id " + item.Key);
-                    }
+                foreach (var item in runningProcesses )
+                {                   
+                       Console.WriteLine(" Specified Process \" " + item.Value + "\" is running with id " + item.Key);                    
+                }
             }
         
         
