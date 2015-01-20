@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +9,9 @@ namespace Collections
 {
     class Program
     {
-        
+
         static void Main(string[] args)
         {
-
             //workWithLists();          
             workWithDictionary();
             Console.ReadKey();
@@ -56,7 +55,9 @@ namespace Collections
 
         private static void workWithDictionary()
         {
-            Dictionary <int,String> runningProcesses= new Dictionary<int,string> () ;
+            ///TODO: 1. Must not use List<String> for Sorting. 2. Check if process is running before iterating the loop on the dictionary. 
+
+            Dictionary<int, String> runningProcesses = new Dictionary<int, string>();
             List<String> processName = new List<string>();
             String inputProcess;
             var x = Process.GetProcesses();
@@ -75,28 +76,28 @@ namespace Collections
             Console.WriteLine("\n\n Processes in ascending order:=");
             foreach (var item in processName)
             {
-                Console.WriteLine("\n" + item );
+                Console.WriteLine("\n" + item);
             }
 
             processName.Reverse();
             Console.WriteLine("\n\n Processes in descending order:=");
             foreach (var item in processName)
             {
-                Console.WriteLine("\n" + item );
+                Console.WriteLine("\n" + item);
             }
 
             Console.WriteLine("Specify a process to be shown with its ID:");
             inputProcess = Console.ReadLine();
 
-            foreach (var item in runningProcesses )
+            if (runningProcesses.ContainsValue(inputProcess))
             {
-                    if (inputProcess == item.Value )
-                    {
-                        Console.WriteLine(" Specified Process \" " + item.Value + "\" is running with id " + item.Key);
-                    }
+                foreach (var item in runningProcesses)
+                {
+                    Console.WriteLine(" Specified Process \" " + item.Value + "\" is running with id " + item.Key);
+                }
             }
-        
-        
+
+
         } // end of method workWithDictionary() 
 
     }
