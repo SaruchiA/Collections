@@ -57,7 +57,9 @@ namespace Collections
         {
             ///TODO: 1. Must not use List<String> for Sorting. 2. Check if process is running before iterating the loop on the dictionary. 
 
+
             Dictionary<int, String> runningProcesses = new Dictionary<int, string>();
+            
             List<String> processName = new List<string>();
             String inputProcess;
             var x = Process.GetProcesses();
@@ -89,16 +91,21 @@ namespace Collections
             Console.WriteLine("Specify a process to be shown with its ID:");
             inputProcess = Console.ReadLine();
 
+
             if (runningProcesses.ContainsValue(inputProcess))
             {
-                foreach (var item in runningProcesses)
-                {
-                    Console.WriteLine(" Specified Process \" " + item.Value + "\" is running with id " + item.Key);
-                }
+                       foreach (var item1 in runningProcesses)
+                        {
+                            if (item1 .Value  == inputProcess)
+                            Console.WriteLine(" Specified Process \" " + item1.Value + "\" is running with id " + item1.Key);
+
+                        }
+             }
+
+
+                } // end of method workWithDictionary() 
+
             }
-
-
-        } // end of method workWithDictionary() 
-
-    }
+        
+    
 }

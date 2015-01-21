@@ -12,3 +12,9 @@ C:\Users\Saruchi\Desktop\Collections\obj\Debug\Collections.pdb
 C:\Users\Saruchi\Desktop\Collections\obj\Debug\Collections.csprojResolveAssemblyReference.cache
 C:\Users\Saruchi\Desktop\Collections\bin\Debug\Collections.exe
 C:\Users\Saruchi\Desktop\Collections\bin\Debug\Collections.pdb
+D:\Users\Saruchi\Documents\GitHub\Collections\bin\Debug\Collections.exe.config
+D:\Users\Saruchi\Documents\GitHub\Collections\obj\Debug\Collections.exe
+D:\Users\Saruchi\Documents\GitHub\Collections\obj\Debug\Collections.pdb
+D:\Users\Saruchi\Documents\GitHub\Collections\obj\Debug\Collections.csprojResolveAssemblyReference.cache
+D:\Users\Saruchi\Documents\GitHub\Collections\bin\Debug\Collections.exe
+D:\Users\Saruchi\Documents\GitHub\Collections\bin\Debug\Collections.pdb
